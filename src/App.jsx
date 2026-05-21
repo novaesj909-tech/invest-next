@@ -483,6 +483,25 @@ export default function InvestNext() {
           <div className="container">
             <strong>INVEST.NEXT</strong> — © 2026. Construindo o próximo nível financeiro.
           </div>
+          <section className="produtos" id="produtos">
+  <div className="container">
+    <h2>Produtos Digitais</h2>
+
+    <div className="grid">
+      {produtos.map((produto) => (
+        <div className="produto-card" key={produto.nome}>
+          <span className="tag">INVEST.NEXT</span>
+          <h3>{produto.nome}</h3>
+          <p>{produto.desc}</p>
+          <strong>{produto.preco}</strong>
+          <a className="btn" href={produto.link} target="_blank" rel="noreferrer">
+            Comprar agora
+          </a>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
         </footer>
 
         <a className="whatsapp-float" href={whatsappLink} target="_blank" rel="noreferrer">
