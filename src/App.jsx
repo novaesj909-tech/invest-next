@@ -30,19 +30,19 @@ export default function InvestNext() {
     nome: "Guia Renda com IA",
     preco: "R$ 29,90",
     desc: "Aprenda formas simples de usar IA para criar renda digital.",
-    link: "https://wa.me/5511968882732"
+    link: "https://pay.kiwify.com.br/cbZqb32"
   },
   {
     nome: "Mentoria Start Digital",
     preco: "R$ 97",
     desc: "Plano prático para criar sua primeira estrutura online.",
-    link: "https://wa.me/5511968882732"
+    link: "https://pay.kiwify.com.br/cbZqb32"
   },
   {
     nome: "Automação com IA",
     preco: "R$ 197",
     desc: "Criação de chatbot, site e captação automática de clientes.",
-    link: "https://wa.me/5511968882732"
+    link: "https://pay.kiwify.com.br/cbZqb32"
   }
 ]
   return (
